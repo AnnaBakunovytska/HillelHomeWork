@@ -54,10 +54,8 @@
 
 // // Ex 6
 // let input = prompt('Input a number');
-// input = parseInt(input);
-// // or
-// // input = input * 1;
-// alert(typeof input);
+// input = isFinite(input);
+// alert(input);
 
 
 // // Ex 7
