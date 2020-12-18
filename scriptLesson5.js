@@ -38,9 +38,9 @@
 // возведенные в пятую степень, не используя функцию Math.pow().
 
 // let randomNumbers = [];
-// for (let n = 0; n < 6; n++) {
-//   randomNumbers[n] = Math.random();
-//   randomNumbers.push(n);
+// for (let x = 0; x < 6; x++) {
+//   randomNumbers[x] = Math.random().toFixed(2);
+//   randomNumbers.push(x);
 // }
 // console.log(randomNumbers);
 

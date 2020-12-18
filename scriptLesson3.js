@@ -270,17 +270,28 @@
 // let prev = 0;
 // console.log(prev);
 // let next = 1;
+// console.log(next);
+// let k = prev + next;
 // for (let x = next; next < 100; (next = prev + next), (prev = x), console.log(next)) {
-//   // for (; ;) {
-//   // let x = next;
-//   // next = prev + next;
-//   // prev = x;
-//   // if (next > 100) {
-//   //   break;
-//   // }
-//   // console.log(next);
+
+//   console.log(next);
 // }
 
+
+// let prev = 0;
+// console.log(prev);
+// let next = 1;
+// console.log(next);
+// for (; ;) {
+//   let x = next;
+//   next = prev + next;
+//   prev = x;
+//   console.log(next)
+//   if (next > 100) {
+//     break;
+
+//   }
+// }
 
 // // Ex 9
 // let number = null;
