@@ -21,7 +21,7 @@
 // Посчитайте сумму всех его чисел, включая строковые. Выведите сумму в alert.
 
 // let arr = [1, 2, 3, 'a', 'b', 'c', '4', '5', '6'];
-// arr.splice(3, 3);
+// arr = arr.filter(Number);
 // let sum = 0;
 
 // for (let key = 0; key < arr.length; key++) {
@@ -210,18 +210,17 @@
 
 // Используя вложенные циклы, сформируйте двумерный массив, содержащий таблицу умножения:
 
-// outer:
+
+// let array = [];
+
 // for (let i = 1; i < 11; i++) {
-//   let arrey = [];
-//   let k = i;
-//   console.log(arrey);
+//   array[i] = [];
 //   for (let x = 1; x < 11; x++) {
-//     let sum = k * x;
-//     let string = k + 'x' + x + '=' + sum;
-//     arrey.push(string);
-//     if (x === 10) { continue outer }
+//     array[i][x] = i * x;
 //   }
 // }
+// console.log(array[3][5]);
+
 
 
 // Ex 10

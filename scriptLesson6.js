@@ -33,78 +33,88 @@
 // Добавьте каждому объекту поле fullName, которое является конкатенацией имени и фамилии
 // Сформируйте новый массив, который содержит только полное имя пользователей
 
-// let users = [
-//   {
-//     firstName: "Jhone",
-//     lastName: "Wolf",
-//     age: 23
-//   },
-//   {
-//     firstName: "Ann",
-//     lastName: "Snow",
-//     age: 27
-//   },
-//   {
-//     firstName: "Jes",
-//     lastName: "Krow",
-//     age: 9
-//   },
-//   {
-//     firstName: "Martin",
-//     lastName: "Luter",
-//     age: 30
-//   },
-//   {
-//     firstName: "Spider",
-//     lastName: "Man",
-//     age: 18
-//   },
-//   {
-//     firstName: "Harry",
-//     lastName: "Potter",
-//     age: 11
-//   },
-//   {
-//     firstName: "Vasya",
-//     lastName: "Ivanov",
-//     age: 14
-//   },
-//   {
-//     firstName: "July",
-//     lastName: "Filps",
-//     age: 31
-//   },
-//   {
-//     firstName: "Tet",
-//     lastName: "Tris",
-//     age: 99
-//   },
-//   {
-//     firstName: "Kris",
-//     lastName: "Pot",
-//     age: 65
-//   }
-// ];
+let users = [
+  {
+    firstName: "Jhone",
+    lastName: "Wolf",
+    age: 23
+  },
+  {
+    firstName: "Ann",
+    lastName: "Snow",
+    age: 27
+  },
+  {
+    firstName: "Jes",
+    lastName: "Krow",
+    age: 9
+  },
+  {
+    firstName: "Martin",
+    lastName: "Luter",
+    age: 30
+  },
+  {
+    firstName: "Spider",
+    lastName: "Man",
+    age: 18
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    age: 11
+  },
+  {
+    firstName: "Vasya",
+    lastName: "Ivanov",
+    age: 14
+  },
+  {
+    firstName: "July",
+    lastName: "Filps",
+    age: 31
+  },
+  {
+    firstName: "Tet",
+    lastName: "Tris",
+    age: 99
+  },
+  {
+    firstName: "Kris",
+    lastName: "Pot",
+    age: 65
+  }
+];
 
 
 // let filterUsersAge = users.filter((item) => item.age < 18);
 // console.log(filterUsersAge);
 
 
-// users.forEach((item) => {
+// let userFullName = () => {
+//   users.forEach((item) => {
 
-//   item.fullName = `${item.firstName} ${item.lastName}`
+//     item.fullName = `${item.firstName} ${item.lastName}`
 
-// });
+//   });
+// }
+
+// userFullName();
 // console.log(users);
 
 
-// let usersNew = users.map((item) => {
-//   return {
-//     fullName: item.fullName
-//   }
-// });
 
+
+// let usersNew = () => {
+//   let arr = [];
+//   users.map((item) => {
+//     arr.push(item.fullName)
+//   });
+//   return arr;
+// }
+
+
+// console.log(usersNew());
 
 // Ex 4
 
@@ -133,7 +143,6 @@
 // }
 
 // pushItem(arr, 'Ukrainian', 'sportsman', 'JS');
-
 
 
 
