@@ -104,6 +104,13 @@
 //     alert(greeting = 'Hallo!');
 //     break;
 // }
+function testB(b) {
+  let a;
+  if (b > 5) {
+    a = 'b > 5'
+  } else { a = 'b < 5' }
+  return a;
+}
 
 
 
